@@ -76,7 +76,7 @@
               </svg>
             </span>
             <button class="bg-bg-green flex justify-center items-center font-extrabold text-xl gap-2 p-3.5 rounded-3xl">
-              Book a Consultation
+              Book Consult
               <div class="flex flex-shrink-0 items-center bg-black text-white rounded-full p-1 w-8 h-8 justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
                   <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -103,7 +103,7 @@
         </p>
       </div>
       <button class="w-full lg:w-fit mt-6 mx-auto lg:px-5 bg-[#ABEF5F80] flex justify-center items-center font-extrabold text-xl gap-2 p-3.5 rounded-3xl">
-        View More Details
+        View Details
         <div class="flex flex-shrink-0 items-center bg-[#ABEF5F] text-black rounded-full p-1 w-8 h-8 justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
             <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
@@ -377,12 +377,13 @@
         <div >
           <br>
           <form class="lg:grid lg:grid-cols-2 gap-5 lg:w-4/6 mx-auto px-5 space-y-4 lg:space-y-0" action="">
-            <input class="w-full px-5 py-3 rounded-3xl" type="name" placeholder="First Name">
+            <input class="w-full px-5 py-3 rounded-3xl " type="name" placeholder="First Name*" required>
             
-            <input class="w-full px-5 py-3 rounded-3xl" type="name" placeholder="Last Name">
+            <input class="w-full px-5 py-3 rounded-3xl" type="name" placeholder="Last Name*" required>
             
-            <input class="w-full px-5 py-3 rounded-3xl" type="text" placeholder="Phone Number">
-            <input class="w-full px-5 py-3 rounded-3xl" type="email" placeholder="Email Number">
+            <input class="w-full px-5 py-3 rounded-3xl" type="text" placeholder="Phone Number*" required>
+            <input class="w-full px-5 py-3 rounded-3xl" type="email" placeholder="Email Number*" required>
+            
             <textarea  class="w-full col-span-2 h-40 lg:h-52 rounded-3xl pt-2 pl-2" name="comment" rows="4" cols="50" placeholder="Write your message here"></textarea>
             
             <button
